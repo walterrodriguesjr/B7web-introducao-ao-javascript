@@ -1,0 +1,9 @@
+https://alunos.b7web.com.br/curso/javascript/js-introducao-ao-javascript
+
+módulo 1 - primeiros passos 
+
+1-introdução ao javascript 
+-javascript serve para realizar ações em uma aplicação, dar vida a um site, projeto etc...
+-trasportar dados no lado do usuário 
+-pode rodar também hoje no lado do servidor 
+-
