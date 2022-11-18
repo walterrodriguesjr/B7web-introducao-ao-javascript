@@ -9,4 +9,5 @@ módulo 1 - primeiros passos
 
 2-como vamos programar JS 
 -explicação do vs code, do dev tools, do navegador 
--
+-o console, do dev tolls é a principal area para JS
+
