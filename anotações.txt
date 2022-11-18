@@ -6,4 +6,7 @@ módulo 1 - primeiros passos
 -javascript serve para realizar ações em uma aplicação, dar vida a um site, projeto etc...
 -trasportar dados no lado do usuário 
 -pode rodar também hoje no lado do servidor 
+
+2-como vamos programar JS 
+-explicação do vs code, do dev tools, do navegador 
 -
