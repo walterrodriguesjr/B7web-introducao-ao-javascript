@@ -40,3 +40,6 @@ módulo 1 - primeiros passos
 11-operações em variáveis 
 -operações aritméticas com variáveis que sejam numbers 
 -concatenação de variáveis
+
+12-string e template string 
+-template é uma string onde se permite fazer operações dentro da mesma, usando crase
