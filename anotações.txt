@@ -30,3 +30,6 @@ módulo 1 - primeiros passos
 8-exercício de variáveis #1 
 -ok
 
+9-ponto e vírgula 
+- o ponto e vírgula serve para identificar o fim de um trecho de código 
+

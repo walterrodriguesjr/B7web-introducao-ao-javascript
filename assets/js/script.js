@@ -25,14 +25,17 @@ console.log(nomeCompleto); */
 
 
 /* exercício de variáveis #1 */
-let car = "Ferrari"; 
+/* let car = "Ferrari"; 
 console.log(car);
 
 let precoBolo = 19.99;
 console.log(precoBolo);
 
 let cidade = "São Paulo";
-console.log(cidade);
+console.log(cidade); */
+
+
+
 
 
 
