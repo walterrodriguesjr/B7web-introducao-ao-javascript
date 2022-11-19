@@ -22,3 +22,8 @@ módulo 1 - primeiros passos
 
 6-tipos de dados 
 -string, number, boolean, array, objeto.
+
+7-comentário no código 
+-seleciona todo conteúdo a ser  comentários e SHIFT + ALT e F 
+- // por linha 
+
