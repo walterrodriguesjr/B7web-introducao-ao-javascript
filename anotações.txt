@@ -11,3 +11,6 @@ módulo 1 - primeiros passos
 -explicação do vs code, do dev tools, do navegador 
 -o console, do dev tolls é a principal area para JS
 
+3-inserindo o arquivo JS na página 
+-link de script sempre no final do body do HTML, para que primeiro toda página HTML e CSS seja carregada 
+
