@@ -20,3 +20,5 @@ módulo 1 - primeiros passos
 5-variáveis 
 -variáveis servem para armazenar dados na memória, para uso posteriormente ou não 
 
+6-tipos de dados 
+-string, number, boolean, array, objeto.
