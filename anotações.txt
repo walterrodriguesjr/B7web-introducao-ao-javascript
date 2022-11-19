@@ -14,3 +14,6 @@ módulo 1 - primeiros passos
 3-inserindo o arquivo JS na página 
 -link de script sempre no final do body do HTML, para que primeiro toda página HTML e CSS seja carregada 
 
+4-hello world 
+-imprimindo alert e console.log 
+
