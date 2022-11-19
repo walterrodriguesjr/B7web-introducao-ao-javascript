@@ -31,5 +31,8 @@ módulo 1 - primeiros passos
 -ok
 
 9-ponto e vírgula 
-- o ponto e vírgula serve para identificar o fim de um trecho de código 
+-o ponto e vírgula serve para identificar o fim de um trecho de código 
 
+10-let, const, var 
+-var e let, permitem terem seus valores redefinidos após criadas, a const não.
+-a var, funciona em qualquer contexto, o let somente no contexto em que foi criada 
