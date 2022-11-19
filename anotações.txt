@@ -27,3 +27,6 @@ módulo 1 - primeiros passos
 -seleciona todo conteúdo a ser  comentários e SHIFT + ALT e F 
 - // por linha 
 
+8-exercício de variáveis #1 
+-ok
+
