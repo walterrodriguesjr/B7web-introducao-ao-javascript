@@ -17,3 +17,6 @@ módulo 1 - primeiros passos
 4-hello world 
 -imprimindo alert e console.log 
 
+5-variáveis 
+-variáveis servem para armazenar dados na memória, para uso posteriormente ou não 
+
