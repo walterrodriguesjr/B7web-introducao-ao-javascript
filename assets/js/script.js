@@ -35,7 +35,15 @@ let cidade = "São Paulo";
 console.log(cidade); */
 
 
+let x = 2;
+let y = 5;
 
+let nome = "Walter";
+let sobreNome = "Rodrigues";
+let nomeCompleto = nome + ' ' + sobreNome;
+
+console.log(x + y);
+console.log(nomeCompleto);
 
 
 

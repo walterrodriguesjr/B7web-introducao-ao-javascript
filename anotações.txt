@@ -36,3 +36,7 @@ módulo 1 - primeiros passos
 10-let, const, var 
 -var e let, permitem terem seus valores redefinidos após criadas, a const não.
 -a var, funciona em qualquer contexto, o let somente no contexto em que foi criada 
+
+11-operações em variáveis 
+-operações aritméticas com variáveis que sejam numbers 
+-concatenação de variáveis
