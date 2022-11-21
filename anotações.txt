@@ -58,5 +58,8 @@ módulo 1 - primeiros passos
 16-condicional dulpa (if else)
 -uso do else if já realizado na aula 15 
 
+17-desmistificando o if 
+- mais exemplos do uso de if 
+
 
 
