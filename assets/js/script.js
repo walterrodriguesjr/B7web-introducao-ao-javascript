@@ -122,12 +122,19 @@ switch (profession) {
 
 //02-MÓDULO
 
-function gravidade(){
+/* function gravidade(){
     console.log('A gravidade do planeta é:');
     console.log(9.8);
 }
 
-gravidade();
+gravidade(); */
+
+function somar(n1, n2){
+    let resultado = n1+n2;
+    console.log("A soma dos números " + n1 + " e " + n2 + ' é: ' + (resultado));
+    console.log(`A soma dos números ${n1} e ${n2} é: ${resultado}`);
+}
+somar(3, 4);
 
 
 
