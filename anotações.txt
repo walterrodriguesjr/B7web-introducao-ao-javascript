@@ -52,3 +52,8 @@ módulo 1 - primeiros passos
 - == é igual em valor 
 - === é igual em valor e tipo de dado 
 
+15-multi-condicionais (&& e ||)
+-uso de condicionais com && e / || ou 
+
+
+
