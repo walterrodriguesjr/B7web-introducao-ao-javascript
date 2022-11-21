@@ -127,7 +127,7 @@ function gravidade(){
     console.log(9.8);
 }
 
-console.log(gravidade());
+gravidade();
 
 
 
