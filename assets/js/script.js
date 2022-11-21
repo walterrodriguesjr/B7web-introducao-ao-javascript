@@ -62,7 +62,7 @@ if (idade >= 18) {
 } */
 
 
-let idade = 20;
+/* let idade = 20;
 
 if (idade < 16) {
     console.log("Você é uma criança.");
@@ -72,7 +72,7 @@ if (idade < 16) {
     console.log("Você é um adulto.");
 } else {
     console.log("Você é um idoso.");
-}
+} */
 
 
 

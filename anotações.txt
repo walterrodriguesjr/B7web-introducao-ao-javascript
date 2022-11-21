@@ -55,5 +55,8 @@ módulo 1 - primeiros passos
 15-multi-condicionais (&& e ||)
 -uso de condicionais com && e / || ou 
 
+16-condicional dulpa (if else)
+-uso do else if já realizado na aula 15 
+
 
 
