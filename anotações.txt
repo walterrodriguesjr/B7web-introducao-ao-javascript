@@ -91,6 +91,10 @@ módulo 2 - javascript básico
 -o return serve para devolver dados (retornar) para aquele que chamou a função 
 -o retorno precisa ir para algum lugar, uma variável por exemplo
 
+6-função com retorno condicional 
+-realizado testes usando IF ELSE dentro das function 
+
+
 
 
 

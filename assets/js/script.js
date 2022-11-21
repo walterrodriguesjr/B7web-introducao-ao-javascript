@@ -144,5 +144,17 @@ let nome = nomeCompleto("Walter", "Rodrigues");
 console.log(nome); */
 
 
+function maiorDeIdade(idade){
+    if(idade >=18){
+        return `Você tem ${idade} anos de idade, é maior de idade.`;
+    }else{
+        return `Você tem ${idade} anos de idade, é menor de idade.`;
+    }
+}
+
+let result = maiorDeIdade(20);
+console.log(result);
+
+
 
 
