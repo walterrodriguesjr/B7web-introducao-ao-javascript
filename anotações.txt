@@ -94,6 +94,9 @@ módulo 2 - javascript básico
 6-função com retorno condicional 
 -realizado testes usando IF ELSE dentro das function 
 
+7-exercício de funções #4
+-ok
+
 
 
 
