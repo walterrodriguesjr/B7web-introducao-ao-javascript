@@ -129,12 +129,19 @@ switch (profession) {
 
 gravidade(); */
 
-function somar(n1, n2){
+/* function somar(n1, n2){
     let resultado = n1+n2;
     console.log("A soma dos números " + n1 + " e " + n2 + ' é: ' + (resultado));
     console.log(`A soma dos números ${n1} e ${n2} é: ${resultado}`);
 }
-somar(3, 4);
+somar(3, 4); */
+
+
+/* function nomeCompleto(nome, sobrenome){
+    return `O nome completo é: ${nome} ${sobrenome}.`;
+}
+let nome = nomeCompleto("Walter", "Rodrigues");
+console.log(nome); */
 
 
 

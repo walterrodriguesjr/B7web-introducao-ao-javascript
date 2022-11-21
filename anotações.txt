@@ -87,6 +87,9 @@ módulo 2 - javascript básico
 4-passando parâmetros em funções 
 -são dados dentro dos parenteses das funções, que recebem os valores inseridos no momento em que a função é chamada 
 
+5-retorno da função 
+-o return serve para devolver dados (retornar) para aquele que chamou a função 
+-o retorno precisa ir para algum lugar, uma variável por exemplo
 
 
 
