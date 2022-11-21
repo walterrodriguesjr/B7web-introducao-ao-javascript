@@ -97,7 +97,8 @@ módulo 2 - javascript básico
 7-exercício de funções #4
 -ok
 
-
+8-exercício de funções #5 
+-ok
 
 
 
