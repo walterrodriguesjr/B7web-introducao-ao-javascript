@@ -64,5 +64,9 @@ módulo 1 - primeiros passos
 18-exercício de condicional #2 
 - exercícios realizados 
 
+19-condicional ternário 
+- o condicional ternário é um if feito em uma linha só 
+- realizado exemplos 
+
 
 
