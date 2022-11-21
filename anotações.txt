@@ -61,5 +61,8 @@ módulo 1 - primeiros passos
 17-desmistificando o if 
 - mais exemplos do uso de if 
 
+18-exercício de condicional #2 
+- exercícios realizados 
+
 
 

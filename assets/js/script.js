@@ -75,6 +75,26 @@ if (idade < 16) {
 } */
 
 
+/* exercício de condiconal #2 */
+/* let x = 10;
+let y = 5;
+console.log(x > y);
+
+let a = '10';
+let b = 10;
+console.log(a === b);
+
+let preco = 48;
+if(preco <= 45){
+    console.log("O preço da carne está barato.");
+}else{
+    console.log("O preço da carne está cara.");
+} */
+
+
+
+
+
 
 
 
