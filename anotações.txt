@@ -68,5 +68,15 @@ módulo 1 - primeiros passos
 - o condicional ternário é um if feito em uma linha só 
 - realizado exemplos 
 
+20-switch 
+-o switch possibilita fazer testes condicionais com uma lista de opções definidas 
+
+
+módulo 2 - javascript básico 
+
+1-introdução a funções 
+-uma função é um comando de ação pré definido, para realizar aquilo que está dentro dela 
+-pode ser reutilizada quantas vezes for necessário ou chamada 
+
 
 

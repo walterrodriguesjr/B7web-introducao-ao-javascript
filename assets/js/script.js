@@ -1,3 +1,5 @@
+//01-MÓDULO
+
 /* alert("Hello World");
 console.log("imprimindo no log"); */
 
@@ -99,6 +101,27 @@ let shipping = isMember ? 2 : 10;
 console.log(isMember ? 'Você é membro.' : 'Você não é membro.');
 
 console.log("Frete: " + shipping); */
+
+
+/* let profession = "bombeiro";
+switch (profession) {
+    case 'fiscal':
+        console.log("sua camisa será verde.");
+        break;
+    case 'policial':
+        console.log("sua camisa será azul.");
+        break;
+    case 'bombeiro':
+        console.log("sua camisa será vermelha.");
+        break;
+    default:
+        console.log("sem camisa definida.");
+        break;
+} */
+
+
+//02-MÓDULO
+
 
 
 
