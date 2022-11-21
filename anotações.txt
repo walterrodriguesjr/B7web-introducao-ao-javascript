@@ -48,3 +48,7 @@ módulo 1 - primeiros passos
 -if= se 
 -else - senão
 
+14-condcional == e === 
+- == é igual em valor 
+- === é igual em valor e tipo de dado 
+
