@@ -100,6 +100,9 @@ módulo 2 - javascript básico
 8-exercício de funções #5 
 -ok
 
+9-exercício de funções #6(mais fácil)
+-
+
 
 
 
