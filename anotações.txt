@@ -101,6 +101,9 @@ módulo 2 - javascript básico
 -ok
 
 9-exercício de funções #6(mais fácil)
+-ok 
+
+10-arrow function 
 -
 
 

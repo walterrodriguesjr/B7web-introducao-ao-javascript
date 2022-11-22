@@ -155,7 +155,7 @@ console.log(nome); */
 let result = maiorDeIdade(20);
 console.log(result); */
 
-function validar(usuario, senha){
+/* function validar(usuario, senha){
     if(usuario === 'pedro' && senha === '123'){
         return true;
     }else{
@@ -170,7 +170,12 @@ if(validacao){
     console.log('Acesso concedido!');
 }else{
     console.log('Acesso negado');
+} */
+
+const somar = (x, y) => {
+    return x + y;
 }
+console.log(somar(10,5));
 
 
 
