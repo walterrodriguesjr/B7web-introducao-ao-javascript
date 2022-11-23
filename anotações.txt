@@ -104,7 +104,12 @@ módulo 2 - javascript básico
 -ok 
 
 10-arrow function 
--
+-é uma forma diferente para definir uma função 
+
+11-variáveis dentro de funções 
+-variavel criada em escopo global pode ser usada dentro ou fora de uma função 
+
+
 
 
 

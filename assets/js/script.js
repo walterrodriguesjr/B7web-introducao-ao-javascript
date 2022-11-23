@@ -172,10 +172,24 @@ if(validacao){
     console.log('Acesso negado');
 } */
 
-const somar = (x, y) => {
+
+/* const somar = (x, y) => {
     return x + y;
 }
-console.log(somar(10,5));
+
+console.log(somar(10,5)); */
+
+/* let count = 0;
+
+function add(){
+    count++;
+}
+add();
+add();
+
+console.log(count); */
+
+
 
 
 
