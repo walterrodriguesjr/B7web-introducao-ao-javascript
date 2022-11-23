@@ -190,6 +190,59 @@ add();
 console.log(count); */
 
 
+/* function addSquares(a,b){
+    function square(x){
+        return x * x;
+    }
+    
+    let sqrA = square(a);
+    let sqrB = square(b);
+    return sqrA + sqrB;
+}
+console.log(addSquares(2,3)); */
+
+
+/* let colors = [
+    'azul',
+    'verde',
+    'amarelo',
+];
+console.log(colors); */
+
+/* let ingredientes = [
+    'agua',
+    'farinha',
+    'ovo',
+    'corante',
+    'açucar',
+];
+ingredientes.pop();
+ingredientes.shift();
+ingredientes.push('cebola');
+console.log(`Total de ingredientes: ${ingredientes.length}`);
+console.log(ingredientes); */
+
+
+let carros = [
+    'BMW',
+    'Ferrari',
+    'Mercedes',
+];
+
+console.log('1. ' + carros[1]);
+
+carros[1] = 'Audi';
+
+console.log(carros);
+
+carros.push('Volvo');
+console.log(carros);
+
+console.log(carros.length);
+
+
+
+
 
 
 

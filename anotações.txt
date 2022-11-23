@@ -109,6 +109,19 @@ módulo 2 - javascript básico
 11-variáveis dentro de funções 
 -variavel criada em escopo global pode ser usada dentro ou fora de uma função 
 
+12-funções dentro de funções 
+-quando usamos uma função dentro da outra, ao invocar a primeira, automaticamente estamos tendo uso 
+    a função que está dentro desta 
+
+13-introdução a array 
+-array é uma variável que serve para armazenar uma lista de dados 
+
+14-operações básicas de arrays 
+-usando métodos que removem e ou adicionam items no final ou começo do array 
+
+15-exercício de array #7 
+-realizado os exercícios com array
+
 
 
 
