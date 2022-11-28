@@ -122,6 +122,13 @@ módulo 2 - javascript básico
 15-exercício de array #7 
 -realizado os exercícios com array
 
+16-o que são objetos? 
+-trabalho com chave e valor (key e value)
+
+17-acessando e alterando objetos 
+-no caso de objetos usa-se o ponto para ir acessando por efeito cascada 
+    ex: personagem.nome 
+
 
 
 

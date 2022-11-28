@@ -223,7 +223,7 @@ console.log(`Total de ingredientes: ${ingredientes.length}`);
 console.log(ingredientes); */
 
 
-let carros = [
+/* let carros = [
     'BMW',
     'Ferrari',
     'Mercedes',
@@ -238,7 +238,17 @@ console.log(carros);
 carros.push('Volvo');
 console.log(carros);
 
-console.log(carros.length);
+console.log(carros.length); */
+
+
+/* let personagem = {
+    nome: 'Walter',
+    idade: 36,
+    pais: 'Brasil'
+};
+
+console.log(personagem);
+console.log(`${personagem.nome} tem ${personagem.idade} anos de idade.`); */
 
 
 
