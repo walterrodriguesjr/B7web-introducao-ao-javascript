@@ -247,8 +247,59 @@ console.log(carros.length); */
     pais: 'Brasil'
 };
 
+
 console.log(personagem);
 console.log(`${personagem.nome} tem ${personagem.idade} anos de idade.`); */
+
+
+/* let pessoa = {
+    nome: "Walter",
+    sobrenome: "Rodrigues",
+    idade: 36,
+    nomeCompleto: function() {
+        return `Meu nome é ${this.nome} ${this.sobrenome} e tenho ${this.idade} anos de idade.`;
+    }
+}
+console.log(pessoa.nomeCompleto()); */
+
+
+/* for(let n = 0; n < 10; n++){
+console.log(`O número é: ${n}`);
+}
+ */
+
+
+let cores = [
+    'preto',
+    'branco',
+    'azul',
+    'vermelho'
+];
+
+let cores2 = [
+    {nome: 'preto', qt: 5},
+    {nome: 'verde', qt: 10},
+    {nome: 'amarelo', qt: 15},
+]
+
+/* for(let n = 0; n < cores.length; n++){
+console.log(cores[n]);
+} */
+
+/* for(let i in cores){
+    console.log(cores[i]);
+} */
+
+for(let cor of cores){
+    console.log(cor);
+}
+
+for(let cor of cores2){
+    console.log(`Nome: ${cor.nome} - ${cor.qt}`);
+}
+
+
+
 
 
 

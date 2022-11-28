@@ -129,6 +129,19 @@ módulo 2 - javascript básico
 -no caso de objetos usa-se o ponto para ir acessando por efeito cascada 
     ex: personagem.nome 
 
+18-função dentro de objetos 
+-as propridades dentro de um objeto podem receber uma função, que inclusive, podem ser usadas 
+    para chamar propridades que estão dentro deste prórpio objeto, usando o this. 
+
+19-o loop for 
+- loop serve para que determinado código seja executado repetidas vezes programadas 
+-o for, executa algo usando 3 diretivas: o inicio da variavel em questão, até quando será feito, e o que será feito 
+
+20-dando loop em array 
+-usado vários tipos de sintáxe de como realizar um loop (usando in, of, etc...)
+
+
+
 
 
 
