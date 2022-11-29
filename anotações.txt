@@ -140,6 +140,17 @@ módulo 2 - javascript básico
 20-dando loop em array 
 -usado vários tipos de sintáxe de como realizar um loop (usando in, of, etc...)
 
+21-o loop while 
+-menos utilizado
+-condicional, execução, incrementação 
+
+22-exercício de loops #8 
+-OK 
+
+23-funções de arrays 
+-métodos disponíveis para os arrays (push() / shift() etc..)
+
+
 
 
 

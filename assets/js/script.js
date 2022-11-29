@@ -269,7 +269,7 @@ console.log(`O número é: ${n}`);
  */
 
 
-let cores = [
+/* let cores = [
     'preto',
     'branco',
     'azul',
@@ -281,7 +281,7 @@ let cores2 = [
     {nome: 'verde', qt: 10},
     {nome: 'amarelo', qt: 15},
 ]
-
+ */
 /* for(let n = 0; n < cores.length; n++){
 console.log(cores[n]);
 } */
@@ -290,13 +290,51 @@ console.log(cores[n]);
     console.log(cores[i]);
 } */
 
-for(let cor of cores){
+/* for(let cor of cores){
     console.log(cor);
+} */
+
+/* for(let cor of cores2){
+    console.log(`Nome: ${cor.nome} - ${cor.qt}`);
+} */
+
+
+/* let numero = 0;
+while (numero < 10){
+    console.log(`O número da vez é: ${numero}`);
+    numero++;
+} */
+
+/* let fruits = [
+    'Maça',
+    'Uva',
+    'Banana',
+];
+
+
+for(let fruit of fruits){
+    console.log(fruit);
 }
 
-for(let cor of cores2){
-    console.log(`Nome: ${cor.nome} - ${cor.qt}`);
-}
+let cont = 0;
+while (cont <= 100) {
+    console.log(cont);
+    cont++;
+} */
+
+
+let fruits = [
+    'Maça',
+    'Uva',
+    'Laranja',
+    'Banana',
+]
+
+fruits.push('Pera');
+console.log(fruits);
+
+
+
 
 
 
