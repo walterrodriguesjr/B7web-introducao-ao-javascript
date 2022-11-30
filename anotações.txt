@@ -150,6 +150,22 @@ módulo 2 - javascript básico
 23-funções de arrays 
 -métodos disponíveis para os arrays (push() / shift() etc..)
 
+24-Ordenação de arrays 
+-funções nativas do JS para ordenação 
+-sort() ordena por ordem alfabética crescente 
+-reverse() ordena por ordem alfabética descrescente 
+-feito exemplo de ordenar dados de objetos que estão dentro de um array 
+
+25-iteração de array 1 
+-são métodos nativos do JS que serve para iterar com o array(contar items, filtrar etc...)
+
+
+módulo 3 - Eventos e manipulação de DOM 
+
+-iniciar
+
+
+
 
 
 

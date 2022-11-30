@@ -323,7 +323,7 @@ while (cont <= 100) {
 } */
 
 
-let fruits = [
+/* let fruits = [
     'Maça',
     'Uva',
     'Laranja',
@@ -331,9 +331,47 @@ let fruits = [
 ]
 
 fruits.push('Pera');
-console.log(fruits);
+console.log(fruits); */
 
 
+/* let fruits = [
+    'Maça',
+    'Uva',
+    'Laranja',
+    'Banana',
+]
+
+fruits.sort();
+fruits.reverse();
+
+console.log(fruits);| */
+
+/* let cars = [
+    {brand: 'Fiat', year: 2022},
+    {brand: 'BMW', year: 2018},
+    {brand: 'Ferrai', year: 2020},
+]
+
+cars.sort((a, b) => a.year - b.year);
+console.log(cars); */
+
+
+/* let fruits = [
+    'Maça',
+    'Uva',
+    'Laranja',
+    'Banana',
+] */
+
+/* let bigFruits = fruits.filter((item) => {
+    if(item.length > 4){
+        return true;
+    }else{
+        return false;
+    }
+}); */
+
+/* console.log(bigFruits); */
 
 
 
