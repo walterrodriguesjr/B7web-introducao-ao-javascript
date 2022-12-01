@@ -162,7 +162,14 @@ módulo 2 - javascript básico
 
 módulo 3 - Eventos e manipulação de DOM 
 
--iniciar
+26-o que é DOM? 
+-document object model - interface de programação para os documentos HTML 
+
+27-selecioandno elementos 1 
+-usando o document.getElementByATagName(), captura o dados de uma tag HTML 
+
+
+
 
 
 
