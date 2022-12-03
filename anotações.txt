@@ -162,11 +162,56 @@ módulo 2 - javascript básico
 
 módulo 3 - Eventos e manipulação de DOM 
 
-26-o que é DOM? 
+1-o que é DOM? 
 -document object model - interface de programação para os documentos HTML 
 
-27-selecioandno elementos 1 
+2-selecionando elementos 1 
 -usando o document.getElementByATagName(), captura o dados de uma tag HTML 
+
+3-selecionando elementos 2
+-usando os comandos de capturar o text de um id, class ou tag 
+
+4-eventos de clique 
+-realiando ações e funções de click 
+
+5-manipulando elementos 1 
+-utilizando métodos do javascript para manipular elementos do HTML navegando pela cascata de tags 
+
+6-manipulando elementos 2 
+-inserindo items de HTML utilizando método prepend append e appendChild do JS 
+
+7-manipulando elementos 3
+-manipulando elementos do HTML usando o before e o after, utilizando o for para gerar uma lista dinamica 
+
+8-manipulando atributos 
+-feita a manipulação de atributos das tags HTML usando métodos JS: getAttribute, setAttribute e hasAttribute 
+
+9-manipulando o CSS 
+-feito testes usando os métodos JS style e em seguida informando qual tipo de alteração CSS será usada 
+
+10-trabalhando com classes 
+-manipulando o elemento de uma class de uma tag, usando classList e em seguida usando o metodo de manipulação 
+
+11-eventos de teclado 1 
+-usando os métodos de captar ações de teclado no JS, keyup, keydown, keypress 
+
+12-eventos de teclado 2
+-usando os métodos do JS para capturar e exibir qual tecla foi pressionada 
+
+13-exercício:lista de tarefas simples 
+-ok 
+
+14-resolução: lista de tarefas simples 
+-realizado o exercício 
+
+
+módulo 4 - objetos e orientação a objetos 
+
+1-
+
+
+
+
 
 
 

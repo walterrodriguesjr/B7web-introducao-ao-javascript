@@ -373,6 +373,119 @@ console.log(cars); */
 
 /* console.log(bigFruits); */
 
+/* var x = document.getElementById("teste").textContent;
+console.log(x);
+
+var li = document.querySelector("#teste ul li").textContent;
+console.log(li); */
+
+
+
+ /* let botao = document.querySelector('.botao');
+botao.addEventListener("click", clic); */
+
+/* function clic() {
+    const teste = document.querySelector("#teste");
+    const ul = teste.querySelector('ul');
+    
+    let newli = document.createElement("li");
+    newli.innerText = "item adicionado";
+
+    ul.appendChild(newli);
+    ul.prepend(newli);
+
+    ul.innerHTML += "<li>item adicionado 2</li>";
+
+  }  */
+
+/*   let botao = document.querySelector('.botao');
+  botao.addEventListener("click", clic);
+
+  function clic() {
+    const teste = document.querySelector("#teste");
+    const ul = teste.querySelector('ul'); */
+
+    /* const newButton = document.createElement('button');
+    newButton.innerHTML = "novo botão"; */
+
+    /* let newUl = document.createElement('ul');
+
+    for (let i = 0; i < 5; i++) {
+        let newLi = document.createElement('li');
+        newLi.innerHTML = "Item numero: " + (i + 1);
+        newUl.append(newLi);
+    }
+    ul.after(newUl); */
+
+    /* ul.after(newButton);
+
+    ul.before("antes")
+    ul.after("depois"); */
+  //}
+
+
+/* document.querySelector(".botao").addEventListener("click", clic);
+
+function clic(){
+    let teste = document.querySelector("#teste");
+    let li = teste.children[0].children[0];
+    li.style.backgroundColor = 'blue';
+} */
+
+
+/* document.querySelector(".botao").addEventListener("click", clic);
+
+function clic(){
+    const botao = document.querySelector(".botao");
+    botao.classList.add("nova");
+    console.log(botao);
+    botao.classList.
+
+    
+} */
+
+/* document.querySelector(".input").addEventListener("keydown", apertou);
+document.querySelector(".input").addEventListener("keyup", soltou);
+document.querySelector(".input").addEventListener("keypress", segurou)
+
+
+
+function apertou(){
+    console.log("apertou");
+}
+
+function segurou(){
+    console.log("segurou");
+}
+
+function soltou(){
+    console.log("soltou");
+} */
+
+
+/* function soltou(e){
+
+    console.log(e.key);
+}
+
+const input = document.querySelector(".input");
+input.addEventListener('keyup', soltou); */
+
+
+let input = document.querySelector(".input");
+let lista = document.querySelector("#teste");
+
+input.addEventListener('keyup', handleKeyUp);
+
+function handleKeyUp(e){
+    if(e.key === 'Enter'){
+      let newLi = document.createElement('li');
+      newLi.innerHTML = input.value;
+      lista.children[0].appendChild(newLi);
+      input.value = '';
+    }
+}
+
 
 
 
