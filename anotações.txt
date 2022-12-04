@@ -207,7 +207,11 @@ módulo 3 - Eventos e manipulação de DOM
 
 módulo 4 - objetos e orientação a objetos 
 
-1-
+1-o que é OO?
+-orientação a objeto = é uma simulação de um objeto do mundo real (objeto pessoa, objeto carro)
+-cria-se objetos e um se comunica com o outro, os dados são agrupados em um objeto 
+
+
 
 
 
