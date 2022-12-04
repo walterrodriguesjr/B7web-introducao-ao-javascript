@@ -211,6 +211,10 @@ módulo 4 - objetos e orientação a objetos
 -orientação a objeto = é uma simulação de um objeto do mundo real (objeto pessoa, objeto carro)
 -cria-se objetos e um se comunica com o outro, os dados são agrupados em um objeto 
 
+2-programação orientada a objeto no javascript 
+-programação procedural = programação com sequencia de código (mais rústica)
+-programação funcional (FP) = usando a orientação a objetos 
+-orientação a objeto através de classes e de funções 
 
 
 
