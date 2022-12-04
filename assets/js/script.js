@@ -486,12 +486,42 @@ function handleKeyUp(e){
     }
 } */
 
+
+/* class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+} */
+
+
+/* class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let p1 = new Person("Walter", 36);
+let p2 = new Person("Charlene", 34);
+let p3 = new Person("Renan", 34);
+
+console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
+
+
 class Person {
     constructor(name, age) {
         this.name = name;
         this.age = age;
     }
 }
+
+let p1 = new Person("Walter", 36);
+let p2 = new Person("Charlene", 34);
+let p3 = new Person("Renan", 34);
+
+console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`);
+
 
 
 

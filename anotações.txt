@@ -222,6 +222,9 @@ módulo 4 - objetos e orientação a objetos
 -constructor() é uma função usada todas as vezes para inicializar uma classe 
 -this se refere a este mesmo, a quem chama a esta class, refere-se ao próprio objeto
 
+4-Classes: Instâncias 
+-instanciando variáveis a propriedades da classe, para poder atribuir um valor ao seu atributo e exibir 
+
 
 
 
