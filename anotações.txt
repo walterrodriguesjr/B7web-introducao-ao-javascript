@@ -212,9 +212,16 @@ módulo 4 - objetos e orientação a objetos
 -cria-se objetos e um se comunica com o outro, os dados são agrupados em um objeto 
 
 2-programação orientada a objeto no javascript 
+-objetos seriam atributos de uma class(coisa, ex: pessoa, carro), e o objeto seriam: José, Paulo, etc
 -programação procedural = programação com sequencia de código (mais rústica)
 -programação funcional (FP) = usando a orientação a objetos 
 -orientação a objeto através de classes e de funções 
+
+3-classes: Construtor e This 
+-todo objeto tem: propriedades e métodos (características e ações)
+-constructor() é uma função usada todas as vezes para inicializar uma classe 
+-this se refere a este mesmo, a quem chama a esta class, refere-se ao próprio objeto
+
 
 
 

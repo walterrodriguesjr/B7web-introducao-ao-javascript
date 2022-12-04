@@ -472,7 +472,7 @@ const input = document.querySelector(".input");
 input.addEventListener('keyup', soltou); */
 
 
-let input = document.querySelector(".input");
+/* let input = document.querySelector(".input");
 let lista = document.querySelector("#teste");
 
 input.addEventListener('keyup', handleKeyUp);
@@ -484,7 +484,16 @@ function handleKeyUp(e){
       lista.children[0].appendChild(newLi);
       input.value = '';
     }
+} */
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 }
+
+
 
 
 
