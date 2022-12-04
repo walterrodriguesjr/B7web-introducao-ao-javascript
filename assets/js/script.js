@@ -510,17 +510,36 @@ console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
 
 
 class Person {
+
+    steps = 0;
+
     constructor(name, age) {
         this.name = name;
         this.age = age;
     }
+
+    takeAStep() {
+        this.steps++;
+    }
+
+    setAge(newAge) {
+        this.age = newAge;
+    }
+
 }
 
 let p1 = new Person("Walter", 36);
 let p2 = new Person("Charlene", 34);
 let p3 = new Person("Renan", 34);
 
+p1.setAge(20);
+
 console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`);
+console.log(`Meu nome é ${p2.name} e tenho ${p2.age} anos de idade.`);
+console.log(`Meu nome é ${p3.name} e tenho ${p3.age} anos de idade.`);
+
+p1.takeAStep();
+console.log(`Passos de ${p1.name}: ${p1.steps}`);
 
 
 

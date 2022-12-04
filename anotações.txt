@@ -225,6 +225,11 @@ módulo 4 - objetos e orientação a objetos
 4-Classes: Instâncias 
 -instanciando variáveis a propriedades da classe, para poder atribuir um valor ao seu atributo e exibir 
 
+5-Classes: Action 
+-Action = ações = métodos = funções 
+-atribuindo ações(funções) a uma class para poder ser usado para um objeto 
+-a função pode ser chamada logo em seguida que se chama o objeto que detém as propriedades do objeto, 
+    que por sua vez contém a referida função. 
 
 
 
