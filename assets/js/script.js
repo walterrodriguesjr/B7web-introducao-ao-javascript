@@ -509,7 +509,7 @@ let p3 = new Person("Renan", 34);
 console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
 
 
-class Person {
+/* class Person {
 
     steps = 0;
 
@@ -539,7 +539,71 @@ console.log(`Meu nome é ${p2.name} e tenho ${p2.age} anos de idade.`);
 console.log(`Meu nome é ${p3.name} e tenho ${p3.age} anos de idade.`);
 
 p1.takeAStep();
-console.log(`Passos de ${p1.name}: ${p1.steps}`);
+console.log(`Passos de ${p1.name}: ${p1.steps}`); */
+
+
+
+/* class Person {
+
+    _age = 10;
+    steps = 0;
+
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    takeAStep() {
+        this.steps++;
+    }
+
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    get age() {
+        return this._age;
+    }
+
+    set age(x) {
+        this._age = x;
+    }
+
+}
+
+let p1 = new Person("Walter", "Rodrigues");
+let p2 = new Person("Charlene");
+let p3 = new Person("Renan");
+
+p1.age = 36;
+
+p1.takeAStep();
+console.log(`${p1.fullName} tem ${p1.age} anos`); */
+
+
+/* class Person {
+    age = 0;
+
+    constructor(name) {
+        this.name = name;
+    }
+
+    sayHi() {
+        console.log(`${this.name} diz oi!`);
+    }
+}
+
+    class Student extends Person {
+        constructor(name, id) {
+            super(name);
+            this.id = id;
+        }
+    }
+
+    let p1 = new Student("Walter", 1);
+    console.log(`ID: ${p1.id} - Nome: ${p1.name} - ${p1.age}`);
+    p1.sayHi(); */
+
 
 
 

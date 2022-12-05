@@ -231,6 +231,16 @@ módulo 4 - objetos e orientação a objetos
 -a função pode ser chamada logo em seguida que se chama o objeto que detém as propriedades do objeto, 
     que por sua vez contém a referida função. 
 
+6-classes: Getter e Setter
+-são funções
+-nem sempre são necessários 
+-Getter = pegar 
+-Setter = setar, inserir
+
+-7-Classes: Herança 
+-quando uma sub class, herda propriedades e métodos de uma class mãe, 
+    através do uso do extends. 
+-usado o super() para puxar propriedades e métodos da class mãe 
 
 
 
