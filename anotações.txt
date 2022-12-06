@@ -237,11 +237,33 @@ módulo 4 - objetos e orientação a objetos
 -Getter = pegar 
 -Setter = setar, inserir
 
--7-Classes: Herança 
+7-Classes: Herança 
 -quando uma sub class, herda propriedades e métodos de uma class mãe, 
     através do uso do extends. 
 -usado o super() para puxar propriedades e métodos da class mãe 
 
+8-Classes: variável/método estático 
+-static =propriedades do tipo static, não podem ser chamadas do jeito comum, mesmo após serem instanciadas. 
+    Para que possam ser chamadas e utilizadas, deve-se em vez de this, usar a chamada da própria class.
+    A variável static é feita justamente para não ser alterada. 
+    A variável static não é instanciada quando sua classe é instanciada. 
+
+9-Classes: Factory 
+-O conceito de factory, é o uso de uma função simples, que por sua vez, cria um objeto instanciando um class.
+    Ou seja, ae ser usada essa function de factory, ela retorna o objeto pronto.
+    Lembrando que do mesmo jeito, ela passa por todo processo de instanciar a class em uma variável, 
+    atribuir valores a propriedades ou métodos, e por final, retornar o objeto pronto. 
+-Criar uma factory para uma uma class, nada mais é do que criar uma simples função que retorna o 
+    objeto já pronto. 
+
+10-projeto: criador de formulário 1 
+-criado uma class Input, a qual possibilita a criação de tags HTML dinâmicas, sendo instanciadas e postas 
+    dentro de variáveis. 
+
+11-projeto: criador de formulário 2
+-criado funções para inserir os items criados, dinâmicamente dentro da div já criada no HTML 
+
+12-projeto: criador de formulário 3-ok
 
 
 

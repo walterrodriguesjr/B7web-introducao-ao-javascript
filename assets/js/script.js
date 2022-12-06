@@ -381,7 +381,7 @@ console.log(li); */
 
 
 
- /* let botao = document.querySelector('.botao');
+/* let botao = document.querySelector('.botao');
 botao.addEventListener("click", clic); */
 
 /* function clic() {
@@ -405,23 +405,23 @@ botao.addEventListener("click", clic); */
     const teste = document.querySelector("#teste");
     const ul = teste.querySelector('ul'); */
 
-    /* const newButton = document.createElement('button');
-    newButton.innerHTML = "novo botão"; */
+/* const newButton = document.createElement('button');
+newButton.innerHTML = "novo botão"; */
 
-    /* let newUl = document.createElement('ul');
+/* let newUl = document.createElement('ul');
 
-    for (let i = 0; i < 5; i++) {
-        let newLi = document.createElement('li');
-        newLi.innerHTML = "Item numero: " + (i + 1);
-        newUl.append(newLi);
-    }
-    ul.after(newUl); */
+for (let i = 0; i < 5; i++) {
+    let newLi = document.createElement('li');
+    newLi.innerHTML = "Item numero: " + (i + 1);
+    newUl.append(newLi);
+}
+ul.after(newUl); */
 
-    /* ul.after(newButton);
+/* ul.after(newButton);
 
-    ul.before("antes")
-    ul.after("depois"); */
-  //}
+ul.before("antes")
+ul.after("depois"); */
+//}
 
 
 /* document.querySelector(".botao").addEventListener("click", clic);
@@ -603,6 +603,137 @@ console.log(`${p1.fullName} tem ${p1.age} anos`); */
     let p1 = new Student("Walter", 1);
     console.log(`ID: ${p1.id} - Nome: ${p1.name} - ${p1.age}`);
     p1.sayHi(); */
+
+
+/*  class Person {
+
+     static hands = 2;
+     age = 0;
+
+     constructor(name) {
+         this.name = name;
+     }
+
+     sayHi() {
+        console.log(`Oi, eu sou ${this.name} e tenho ${Person.hands} mãos.`); 
+     }
+
+ }
+ let p1 = new Person("Walter");
+ p1.sayHi(); */
+
+
+/* class Person {
+    age = 0;
+
+    constructor(name) {
+        this.name = name;
+    }
+}
+
+function createPerson(name, age) {
+    let p = new Person(name)
+    p.age = age;
+    return p;
+}
+
+let p1 = createPerson("Walter", 36);
+console.log(p1);
+console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
+
+method = 'GET';
+
+class Form {
+    items = [];
+    constructor(container, method, action){
+        this.container = document.querySelector(container);
+        this.method = method;
+        this.action = action;
+    }
+
+    addItem(item) {
+        this.items.push(item);
+    }
+
+    render() {
+        let formElement = document.createElement('form');
+        formElement.setAttribute('method', this.method);
+        formElement.setAttribute('action', this.action);
+
+        for(let i in this.items) {
+            this.items[i].render(formElement);
+        }
+
+        this.container.appendChild(formElement);
+    }
+
+
+}
+
+class Input {
+
+    _type = 'text';
+
+    required = false;
+
+    constructor(name, label) {
+        this.name = name;
+        this.label = label;
+    }
+
+    get type() {
+        return this._type;
+    }
+
+    set type(t) {
+        if(['text', 'password', 'email', 'submit'].includes(t)){
+          this._type = t;  
+        }else{
+            throw new Error(`input "${t} tipo não existe.`);
+        }
+    }
+
+    render(formElement) {
+        let el = document.createElement('input');
+        el.type = this.type;
+        el.name = this.name;
+        el.placeholder = this.placeholder;
+        el.required = this.required;
+        formElement.appendChild(el);
+    }
+}
+
+
+class Button extends Input {
+    constructor(label) {
+        super('', label);
+        this.type = 'submit';
+    }
+
+    render(formElement){
+        let el = document.createElement('input');
+        el.type = this.type;
+        el.value = this.label;
+    }
+}
+
+let form = new Form('.formArea', 'POST', 'https://site.com.br');
+
+let email = new Input("email", "Digite seu e-amil");
+email.type = 'email';
+email.required = true;
+form.addItem(email);
+
+let password = new Input('password', 'Digite sua senha');
+password.type = 'password';
+form.addItem(password);
+
+let button = new Button('Enviar');
+form.addItem(button);
+
+form.render();
+
+
 
 
 
