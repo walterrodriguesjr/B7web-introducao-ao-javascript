@@ -266,6 +266,35 @@ módulo 4 - objetos e orientação a objetos
 12-projeto: criador de formulário 3-ok
 
 
+módulo 5 - introdução Geral 
+
+1-aviso importante 
+-ok 
+
+2-introdução 
+-javascript é uma linguagem de programação para web 
+
+3-onde colocar o código JS? 
+-pode ser inserido no próprio arquivo HTML, no final do arquivo, ou, 
+    em um arquivo separado.
+
+4-como usar o console 
+-o console.log, serve para imprimir algo no developer tool do navegador 
+
+5-formas de mostrar (output) 
+-document.write();
+-.innerHTML 
+-window.alert('')
+-console.log()
+
+6-variáveis(1/2)
+-varável serve para armazenar dados, como se fosse um recipiente 
+
+7-condicionais (1/2)
+-executa ou deixa de executar algo, até que determinada condição seja atendida 
+
+
+
 
 
 

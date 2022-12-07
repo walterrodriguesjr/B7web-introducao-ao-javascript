@@ -641,7 +641,7 @@ let p1 = createPerson("Walter", 36);
 console.log(p1);
 console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
 
-method = 'GET';
+/* method = 'GET';
 
 class Form {
     items = [];
@@ -731,7 +731,20 @@ form.addItem(password);
 let button = new Button('Enviar');
 form.addItem(button);
 
-form.render();
+form.render(); */
+
+/* document.getElementById('titulo').innerHTML = "trocando o texto"; */
+
+
+/* idade = 36;
+
+if(idade > 34){
+    alert("idade 36");
+}else{
+    alert("idade menor que 36");
+} */
+
+
 
 
 
