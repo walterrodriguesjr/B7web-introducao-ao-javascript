@@ -293,6 +293,24 @@ módulo 5 - introdução Geral
 7-condicionais (1/2)
 -executa ou deixa de executar algo, até que determinada condição seja atendida 
 
+8-condicionais (2/2)
+-exemplo de condicionais: if, else if e else 
+
+9-variáveis(2/2)
+-var, let e const 
+-var = tem escopo global de acesso 
+-let = tem escopo local de acesso 
+-const = não pode ser alterada após definida e atribuído valor 
+
+
+módulo 6 - conceitos básicos 
+
+1-evento de click 
+-existem diversos métodos nativos de click, sempre começando com 'on'
+
+2-evento de teclado 
+--existem diversos métodos nativos de key, sempre começando com 'on'
+
 
 
 

@@ -746,6 +746,16 @@ if(idade > 34){
 
 
 
+/* function clicou()
+{
+    document.getElementById('h1').innerHTML = "alterou";
+} */
+
+
+
+
+
+
 
 
 
