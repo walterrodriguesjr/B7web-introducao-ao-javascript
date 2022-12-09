@@ -309,9 +309,10 @@ módulo 6 - conceitos básicos
 -existem diversos métodos nativos de click, sempre começando com 'on'
 
 2-evento de teclado 
---existem diversos métodos nativos de key, sempre começando com 'on'
+-existem diversos métodos nativos de key, sempre começando com 'on'
 
-
+3-mudanças de estilos 
+-
 
 
 
