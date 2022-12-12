@@ -388,7 +388,7 @@ botao.addEventListener("click", clic); */
     const teste = document.querySelector("#teste");
     const ul = teste.querySelector('ul');
     
-    let newli = document.createElement("li");
+    let newli = document.document.("li");
     newli.innerText = "item adicionado";
 
     ul.appendChild(newli);
@@ -405,13 +405,13 @@ botao.addEventListener("click", clic); */
     const teste = document.querySelector("#teste");
     const ul = teste.querySelector('ul'); */
 
-/* const newButton = document.createElement('button');
+/* const newButton = document.document.('button');
 newButton.innerHTML = "novo botão"; */
 
-/* let newUl = document.createElement('ul');
+/* let newUl = document.document.('ul');
 
 for (let i = 0; i < 5; i++) {
-    let newLi = document.createElement('li');
+    let newLi = document.document.('li');
     newLi.innerHTML = "Item numero: " + (i + 1);
     newUl.append(newLi);
 }
@@ -479,7 +479,7 @@ input.addEventListener('keyup', handleKeyUp);
 
 function handleKeyUp(e){
     if(e.key === 'Enter'){
-      let newLi = document.createElement('li');
+      let newLi = document.document.('li');
       newLi.innerHTML = input.value;
       lista.children[0].appendChild(newLi);
       input.value = '';
@@ -656,7 +656,7 @@ class Form {
     }
 
     render() {
-        let formElement = document.createElement('form');
+        let formElement = document.document.('form');
         formElement.setAttribute('method', this.method);
         formElement.setAttribute('action', this.action);
 
@@ -694,7 +694,7 @@ class Input {
     }
 
     render(formElement) {
-        let el = document.createElement('input');
+        let el = document.document.('input');
         el.type = this.type;
         el.name = this.name;
         el.placeholder = this.placeholder;
@@ -711,7 +711,7 @@ class Button extends Input {
     }
 
     render(formElement){
-        let el = document.createElement('input');
+        let el = document.document.('input');
         el.type = this.type;
         el.value = this.label;
     }
@@ -750,6 +750,27 @@ if(idade > 34){
 {
     document.getElementById('h1').innerHTML = "alterou";
 } */
+
+
+/* let carros = ['Palio', 'Uno', 'Gol', 'Ferrari'];
+console.log(carros);
+carros.push('Corolla');
+console.log(carros); */
+
+
+
+
+/* document.getElementById('lista').innerHTML = carros.map(carro=>`<li>${carro}</li>`).join(''); */
+
+
+/* let carro = {nome: 'Fiat', modelo: 'Uno', peso: '800kg'};
+
+console.log(carro.nome); */
+
+
+
+
+
 
 
 

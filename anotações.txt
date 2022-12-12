@@ -312,7 +312,15 @@ módulo 6 - conceitos básicos
 -existem diversos métodos nativos de key, sempre começando com 'on'
 
 3-mudanças de estilos 
--
+-ok 
+
+4-array 
+listagem numerada
+-serve para poder colocar uma lista de itens na mesma variável 
+-utiliza-se de métodos JS para incrementar ou decrementar um array de maneira dinamica
+
+5-objetos 1/2 
+-listagem nomeada, é necessário especificar o nome e o valor do item.
 
 
 
