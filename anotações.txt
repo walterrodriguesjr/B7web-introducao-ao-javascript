@@ -322,6 +322,21 @@ listagem numerada
 5-objetos 1/2 
 -listagem nomeada, é necessário especificar o nome e o valor do item. com teste
 
+6-objetos 2/2
+- ok 
+
+7-projeto menu de navegação 
+-usado métodos: contains, remove e add; 
+-usado o CSS direto no JS para fazer alterações
+    ex: style.width 
+
+8-switch 
+-feito exemplo de case com dias da semana 
+
+9-loop for 
+-PAREI 6:30
+
+
 
 
 

@@ -763,10 +763,55 @@ console.log(carros); */
 /* document.getElementById('lista').innerHTML = carros.map(carro=>`<li>${carro}</li>`).join(''); */
 
 
-/* let carro = {nome: 'Fiat', modelo: 'Uno', peso: '800kg'};
+/* let carro = {nome: 'Fiat',
+             modelo: 'Uno',
+             peso: '800kg',
+             ligar:function() {
+                console.log("Ligando carro "+this.modelo);
+             },
+             acelerar:function() {
+                console.log("Acelerando o carro "+this.modelo);
+             }
+            };
 
-console.log(carro.nome); */
+console.log("Modelo: "+carro.modelo);
+carro.ligar();
+carro.acelerar(); */
 
+
+/* let dia = 3;
+let diaNome = '';
+
+switch (dia) {
+    case 1:
+        diaNome = "Segunda-feira";
+        break;
+        case 2:
+            diaNome = "Terça-feira";
+            break;
+            case 3:
+                diaNome = "Quarta-feira";
+                break;
+                default:
+                    break;
+                }
+                document.getElementById('dia').innerHTML = "Hoje é: "+diaNome;
+ */
+
+
+let texto = '';
+let carros = ['fusca', 'uno', 'ferrari'];
+/* for (let i = 0; i < 50; i++) {
+    texto += i + '<br>';
+    
+} */
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+
+document.getElementById('demo').innerHTML = texto;
 
 
 
