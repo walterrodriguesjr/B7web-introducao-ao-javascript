@@ -799,19 +799,53 @@ switch (dia) {
  */
 
 
-let texto = '';
+/* let texto = '';
 let carros = ['fusca', 'uno', 'ferrari'];
-/* for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 50; i++) {
     texto += i + '<br>';
     
-} */
+}
 
 for (let index = 0; index < array.length; index++) {
     const element = array[index];
     
 }
 
+document.getElementById('demo').innerHTML = texto; */
+
+/* let texto = '';
+
+for (let i = 0; i < 50; i++) {
+    texto += i + '<br>';
+}
 document.getElementById('demo').innerHTML = texto;
+*/
+
+/* CRIANDO UMA LISTA COM ARRAY DE DADOS */
+/* let carros = ['Uno', 'Fusca', 'gol'];
+carros.push('Corvete');
+let html = '<ul>';
+
+for (let i in carros) {
+    html += '<li>'+ carros[i] +'</li>';
+    
+}
+html += '</ul>';
+
+document.getElementById('demo').innerHTML = html; */
+
+
+/* let html = '';
+
+let c = 0;
+
+while (c <= 10) {
+    html += "Número: "+c+"<br>";
+    c++;
+}
+
+document.getElementById('demo').innerHTML = html; */
+
 
 
 

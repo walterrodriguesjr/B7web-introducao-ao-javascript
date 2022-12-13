@@ -334,8 +334,41 @@ listagem numerada
 -feito exemplo de case com dias da semana 
 
 9-loop for 
--PAREI 6:30
+-existe o for de loop e o for de loop array (com indice)
+-exemplo de lista com array, criando a UL e LI dinamica 
 
+10-loop while 
+-condicional que executa algo enquanto a condição for atendida, porem a incrementação ou decrementação, 
+    deve ser incluída no corpo do loop, para não virar um loop infinito 
+
+11-querySelector(querySelectorAll)
+-feito os teste com este método 
+
+
+módulo 7 - DOM 
+
+1-o que é DOM 
+-DOM = document object model, é a referência de tudo que está aparecendo na página, é a aquilo que 
+    vemos na tela 
+
+2-selecionando elementos(4 funções) 1
+-getElementById = seleciona pelo 'id'
+
+2-selecionando elementos(4 funções) 2
+-getElementsByClassName = seleciona pela 'class', neste, tendo mais de um item usando a class, o JS 
+    irá tratar como um array de itens, sendo necessário informar i índice do array, antes de usar, 
+    por exemplo, um innerHTML 
+-getElementsByTagName = seleciona pela 'tag' HTML 
+-getElementsByName - seleciona pelo 'name' da tag HTML
+
+3-selecionando com querySelector 
+-querySelector = é um seletor genérico(tag, id, class, name) sempre passando o símbolo do item(#, .), 
+    porém, retorna sempre o primeiro item encontrado, mesmo sendo uma class usada por vários itens.
+-querySelectorAll = parecido com o anterior, porém, no caso de class, pega todos os encontrados 
+
+4-manipulando class do elemento 1 
+-utilizando os métodos add remove para adicionar e remover classes da tag 
+-
 
 
 
