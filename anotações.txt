@@ -354,21 +354,34 @@ módulo 7 - DOM
 2-selecionando elementos(4 funções) 1
 -getElementById = seleciona pelo 'id'
 
-2-selecionando elementos(4 funções) 2
+3-selecionando elementos(4 funções) 2
 -getElementsByClassName = seleciona pela 'class', neste, tendo mais de um item usando a class, o JS 
     irá tratar como um array de itens, sendo necessário informar i índice do array, antes de usar, 
     por exemplo, um innerHTML 
 -getElementsByTagName = seleciona pela 'tag' HTML 
 -getElementsByName - seleciona pelo 'name' da tag HTML
 
-3-selecionando com querySelector 
+4-selecionando com querySelector 
 -querySelector = é um seletor genérico(tag, id, class, name) sempre passando o símbolo do item(#, .), 
     porém, retorna sempre o primeiro item encontrado, mesmo sendo uma class usada por vários itens.
 -querySelectorAll = parecido com o anterior, porém, no caso de class, pega todos os encontrados 
 
-4-manipulando class do elemento 1 
+5-manipulando class do elemento 1 
 -utilizando os métodos add remove para adicionar e remover classes da tag 
--
+
+6-manipulando class do elemento 2
+-usando javascript e css para criar uma ação de toggle com cores e botão 
+-usando mais uma vez os métodos: contains, remove e add 
+
+7-tipos de dados 
+-string, number, boolean, 
+-função para retornar o tipo de dado de uma variável: 'typeof'
+
+8-comentários 
+// por linha, /* */ pega multiplas linhas 
+
+
+
 
 
 
