@@ -380,6 +380,86 @@ módulo 7 - DOM
 8-comentários 
 // por linha, /* */ pega multiplas linhas 
 
+9-funções(1/2)
+-ações a serem realizadas pré definidas 
+-criado exemplo de disparar evento a partir de um click 
+
+10-funções(2/2)
+-usado os parâmetros das funções 
+-usando o return da função 
+
+11-manipulando atributos 
+-usando métodos JS: getAttribute e setAttribute para pegar ou setar atributos de uma tag HTML 
+
+12-dimensões 
+-métodos para pegar informações sobre altura, largura, padding etc de um elemento do HTML 
+
+13-distâncias e scroll suave 
+-ok
+
+14-respostas do exercício scroll 
+-ok 
+
+
+módulo 8 - manipulações, arrow, ajax, etc 
+
+1-métodos de string(1/3)
+-variavel.length = verificar a quantidade de caracteres contidas na string da variável 
+-variavel.indexOf = retorna em qual posição inicia a string informada no parâmetro, se houver 
+
+2-métodos de string(2/3)
+-variavel.slice = serve para extrair(fatiar) dados do conteúdo de uma variável(de onde, até a onde será retirado);
+-variavel.substring = similar ao slice, porem, não aceita posições negativas 
+-variavel.substr = similar ao slice, porem, no segundo trabalha a quantidade de caracteres no segundo parâmetro
+
+3-métodos de string(3/3)
+-variável.replace = serve para substituir dados da variável, espera 2 parâmetros(1-o que já,2-o que entra)
+-variável.toUpperCase() = converte toda o conteúdo da variável para maiúsculo 
+-variável.toLowerCase() = converte toda o conteúdo da variável para minúsculo 
+-variável.concat() = serve principalmente para inserir(concatenar) mais dados ao conteúdo da variável 
+-variável.trim() = serve para aparar os espaços contidos nas extremidades de dentro do conteúdo da variável
+-variável.charAt() = serve para retornar qual caractere está contído na posição informado por parâmetro
+-variável.split() = serve para cortar(splitar) no caractere informado por parâmetro e o principal, converte 
+    todo o conteúdo da variável para um array. 
+
+4-métodos de numbers 
+-variável.toString() = converte um number para string 
+-variável.toFixed() = serve para que, após o ponto, seja mostrado a quantidade de números informados no parâmetro
+-variável.parseInt() = serve para transformar um número string, em number 
+-variável.parseFloat() = serve para transformar um número string com ponto, em number
+
+5-métodos de arrays(1/4)
+-variável.toString() = converte um array para uma string 
+-variável.join() = converte um array para string, porém, separa os itens com o caractere ou espaço informado no parâmetro no método 
+-variável.indexOf() = serve para localizar a posição de um item do array, espera como parâmetro a palavra completa do item 
+-variável.shift() = remove o primeiro item do array 
+-variável.pop() = remove o último item do array 
+-variável.push() = adiciona um novo item no final do array, espera o novo item no parâmetro 
+-para alterar um item do array, basta chamar o array, seguido do índice recebendo o novo item naquele lugar 
+
+6-métodos de arrays(2/4)
+-variável.splice() = serve para remover item do array, espera no parâmetro, o indice do item a ser removido, e quantidade de itens removidos a partir deste 
+-para fundir 2 arrays, abre-se uma nova variável, e esta recebe o array.concat(array2)
+-variável.sort() = serve para ordenar um array em ordem alfabética crescente 
+-variável.reverse() = serve para inverter a ordem dos itens do array 
+
+7-métodos de arrays(3/4)
+-map() = ele percorre todo o array informado, possibilitando, dentro do map, realizar uma função, e manipular os dados do array inicial como quiser, e retorna através do parâmetro 'item', podendo ser usado dentro de outro array vazio, se retornar dentro de um array com dados, os novos irão então sobrescreve-lo 
+-filter() = similar ao map(), trabalhar com um primeiro array com dados e um segundo novo vazio, porém, filtra os dados, possiblitando trazer ao novo array, somente os dados que satisfacam a condição imposta 
+ -every() = estrutura similar as 2 anteriores, porém, dependendo da condição imposta, retorna true ou false 
+ -some() = estrutura similar ao every(todo), porém, se ouver apenas 1 item que satisfaça a condição, já pode retorna true 
+ 
+8-métodos de arrays(4/4)
+-find() = estrutura similar aos 4 anteriores, porém, o find(achar) serve para localizar algo específico, se a condição for exata(==), ou então, se for algo (<, ou, >) ele retorna o primeiro item localizado que satisfaça pela ordem do array mapeado 
+-findIndex() = estrutura similar ao find() porém, retorna a posição do item em condição, caso exista 
+
+
+
+
+
+
+
+
 
 
 
