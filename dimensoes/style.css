@@ -1,0 +1,7 @@
+.texto {
+    width: 160px;
+    height: 200px;
+    overflow: auto;
+    background-color: #ccc;
+    padding: 20px;
+}

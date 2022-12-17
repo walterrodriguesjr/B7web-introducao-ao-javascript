@@ -266,6 +266,242 @@ módulo 4 - objetos e orientação a objetos
 12-projeto: criador de formulário 3-ok
 
 
+módulo 5 - introdução Geral 
+
+1-aviso importante 
+-ok 
+
+2-introdução 
+-javascript é uma linguagem de programação para web 
+
+3-onde colocar o código JS? 
+-pode ser inserido no próprio arquivo HTML, no final do arquivo, ou, 
+    em um arquivo separado.
+
+4-como usar o console 
+-o console.log, serve para imprimir algo no developer tool do navegador 
+
+5-formas de mostrar (output) 
+-document.write();
+-.innerHTML 
+-window.alert('')
+-console.log()
+
+6-variáveis(1/2)
+-varável serve para armazenar dados, como se fosse um recipiente 
+
+7-condicionais (1/2)
+-executa ou deixa de executar algo, até que determinada condição seja atendida 
+
+8-condicionais (2/2)
+-exemplo de condicionais: if, else if e else 
+
+9-variáveis(2/2)
+-var, let e const 
+-var = tem escopo global de acesso 
+-let = tem escopo local de acesso 
+-const = não pode ser alterada após definida e atribuído valor 
+
+
+módulo 6 - conceitos básicos 
+
+1-evento de click 
+-existem diversos métodos nativos de click, sempre começando com 'on'
+
+2-evento de teclado 
+-existem diversos métodos nativos de key, sempre começando com 'on'
+
+3-mudanças de estilos 
+-ok 
+
+4-array 
+listagem numerada
+-serve para poder colocar uma lista de itens na mesma variável 
+-utiliza-se de métodos JS para incrementar ou decrementar um array de maneira dinamica
+
+5-objetos 1/2 
+-listagem nomeada, é necessário especificar o nome e o valor do item. com teste
+
+6-objetos 2/2
+- ok 
+
+7-projeto menu de navegação 
+-usado métodos: contains, remove e add; 
+-usado o CSS direto no JS para fazer alterações
+    ex: style.width 
+
+8-switch 
+-feito exemplo de case com dias da semana 
+
+9-loop for 
+-existe o for de loop e o for de loop array (com indice)
+-exemplo de lista com array, criando a UL e LI dinamica 
+
+10-loop while 
+-condicional que executa algo enquanto a condição for atendida, porem a incrementação ou decrementação, 
+    deve ser incluída no corpo do loop, para não virar um loop infinito 
+
+11-querySelector(querySelectorAll)
+-feito os teste com este método 
+
+
+módulo 7 - DOM 
+
+1-o que é DOM 
+-DOM = document object model, é a referência de tudo que está aparecendo na página, é a aquilo que 
+    vemos na tela 
+
+2-selecionando elementos(4 funções) 1
+-getElementById = seleciona pelo 'id'
+
+3-selecionando elementos(4 funções) 2
+-getElementsByClassName = seleciona pela 'class', neste, tendo mais de um item usando a class, o JS 
+    irá tratar como um array de itens, sendo necessário informar i índice do array, antes de usar, 
+    por exemplo, um innerHTML 
+-getElementsByTagName = seleciona pela 'tag' HTML 
+-getElementsByName - seleciona pelo 'name' da tag HTML
+
+4-selecionando com querySelector 
+-querySelector = é um seletor genérico(tag, id, class, name) sempre passando o símbolo do item(#, .), 
+    porém, retorna sempre o primeiro item encontrado, mesmo sendo uma class usada por vários itens.
+-querySelectorAll = parecido com o anterior, porém, no caso de class, pega todos os encontrados 
+
+5-manipulando class do elemento 1 
+-utilizando os métodos add remove para adicionar e remover classes da tag 
+
+6-manipulando class do elemento 2
+-usando javascript e css para criar uma ação de toggle com cores e botão 
+-usando mais uma vez os métodos: contains, remove e add 
+
+7-tipos de dados 
+-string, number, boolean, 
+-função para retornar o tipo de dado de uma variável: 'typeof'
+
+8-comentários 
+// por linha, /* */ pega multiplas linhas 
+
+9-funções(1/2)
+-ações a serem realizadas pré definidas 
+-criado exemplo de disparar evento a partir de um click 
+
+10-funções(2/2)
+-usado os parâmetros das funções 
+-usando o return da função 
+
+11-manipulando atributos 
+-usando métodos JS: getAttribute e setAttribute para pegar ou setar atributos de uma tag HTML 
+
+12-dimensões 
+-métodos para pegar informações sobre altura, largura, padding etc de um elemento do HTML 
+
+13-distâncias e scroll suave 
+-ok
+
+14-respostas do exercício scroll 
+-ok 
+
+
+módulo 8 - manipulações, arrow, ajax, etc 
+
+1-métodos de string(1/3)
+-variavel.length = verificar a quantidade de caracteres contidas na string da variável 
+-variavel.indexOf = retorna em qual posição inicia a string informada no parâmetro, se houver 
+
+2-métodos de string(2/3)
+-variavel.slice = serve para extrair(fatiar) dados do conteúdo de uma variável(de onde, até a onde será retirado);
+-variavel.substring = similar ao slice, porem, não aceita posições negativas 
+-variavel.substr = similar ao slice, porem, no segundo trabalha a quantidade de caracteres no segundo parâmetro
+
+3-métodos de string(3/3)
+-variável.replace = serve para substituir dados da variável, espera 2 parâmetros(1-o que já,2-o que entra)
+-variável.toUpperCase() = converte toda o conteúdo da variável para maiúsculo 
+-variável.toLowerCase() = converte toda o conteúdo da variável para minúsculo 
+-variável.concat() = serve principalmente para inserir(concatenar) mais dados ao conteúdo da variável 
+-variável.trim() = serve para aparar os espaços contidos nas extremidades de dentro do conteúdo da variável
+-variável.charAt() = serve para retornar qual caractere está contído na posição informado por parâmetro
+-variável.split() = serve para cortar(splitar) no caractere informado por parâmetro e o principal, converte 
+    todo o conteúdo da variável para um array. 
+
+4-métodos de numbers 
+-variável.toString() = converte um number para string 
+-variável.toFixed() = serve para que, após o ponto, seja mostrado a quantidade de números informados no parâmetro
+-variável.parseInt() = serve para transformar um número string, em number 
+-variável.parseFloat() = serve para transformar um número string com ponto, em number
+
+5-métodos de arrays(1/4)
+-variável.toString() = converte um array para uma string 
+-variável.join() = converte um array para string, porém, separa os itens com o caractere ou espaço informado no parâmetro no método 
+-variável.indexOf() = serve para localizar a posição de um item do array, espera como parâmetro a palavra completa do item 
+-variável.shift() = remove o primeiro item do array 
+-variável.pop() = remove o último item do array 
+-variável.push() = adiciona um novo item no final do array, espera o novo item no parâmetro 
+-para alterar um item do array, basta chamar o array, seguido do índice recebendo o novo item naquele lugar 
+
+6-métodos de arrays(2/4)
+-variável.splice() = serve para remover item do array, espera no parâmetro, o indice do item a ser removido, e quantidade de itens removidos a partir deste 
+-para fundir 2 arrays, abre-se uma nova variável, e esta recebe o array.concat(array2)
+-variável.sort() = serve para ordenar um array em ordem alfabética crescente 
+-variável.reverse() = serve para inverter a ordem dos itens do array 
+
+7-métodos de arrays(3/4)
+-map() = ele percorre todo o array informado, possibilitando, dentro do map, realizar uma função, e manipular os dados do array inicial como quiser, e retorna através do parâmetro 'item', podendo ser usado dentro de outro array vazio, se retornar dentro de um array com dados, os novos irão então sobrescreve-lo 
+-filter() = similar ao map(), trabalhar com um primeiro array com dados e um segundo novo vazio, porém, filtra os dados, possiblitando trazer ao novo array, somente os dados que satisfacam a condição imposta 
+ -every() = estrutura similar as 2 anteriores, porém, dependendo da condição imposta, retorna true ou false 
+ -some() = estrutura similar ao every(todo), porém, se ouver apenas 1 item que satisfaça a condição, já pode retorna true 
+ 
+8-métodos de arrays(4/4)
+-find() = estrutura similar aos 4 anteriores, porém, o find(achar) serve para localizar algo específico, se a condição for exata(==), ou então, se for algo (<, ou, >) ele retorna o primeiro item localizado que satisfaça pela ordem do array mapeado 
+-findIndex() = estrutura similar ao find() porém, retorna a posição do item em condição, caso exista 
+
+9-datas(1/3)
+-variável = new Date() = capta a data do momento, da máquina, e insere na variável
+-variavel.toString() = formata num padrão mais amigável 
+-variável.toUTCString() = formata para o padrão UTC local 
+
+10-datas(2/3)
+-variável.getDay() = serve para capturar o número(posição)do dia da semana(de 0 a 6)
+-variável.getMonth() = serve para capturar o número(posição)do mês contido na variável
+-variável.getDate() = serve para capturar o dia contido na vairável 
+-variável.getHours() = serve para capturar a hora contída na variável 
+-variável.getMinutes() = serve para capturar o minuto contída na variável 
+
+11-datas(3/3)
+-variável.setFullYear() = serve para editar o ano que vem da class Date();
+-variável.setMonth() = serve para editar o mês que vem da class Date();
+
+12-matemática 
+-JS tem uma class específica para operações matemática, Math.algumaCoisa 
+-Math.round = arredonda o número recebido no parâmetro, para cima ou para baixo, dependendo de onde estiver mais perto 
+-Math.floor = arredonda o número recebido no parâmetro, para baixo
+-Math.ceil = arredonda o número recebido no parâmetro, para cima
+-Math.abs = retorna o valor absoluto do valor passado no parâmetro 
+-Math.min = retorna o menor número, dentro os passados no parâmetro
+-Math.max = retorna o maior número, dentro os passados no parâmetro
+-Math.random = retorna um número aleatório, após multiplicar pelo valor de número a estarem entre os aleatórios, a função random() é recomendável estar dentro de uma Math.floor()
+
+13-intervalos(1/2)
+-criar timers, fazer o código rodar de tanto e tanto tempo, eventos programados 
+-setInterval() = esta função, possibilita, realizar algo(executar outra função)de tanto e tanto tempo, no parâmetro aguarda o que será executado, e de quanto em quanto tempo 
+-clearInterval() = serve para parar uma ação usando setInterval(), criada anteriormente 
+
+13-intervalos(2/2)
+-setTimeout() = esta função espera determinado tempo especificado para realizar algo 
+
+14-template strings 
+-é uma maneira nova de exibir dados sem precisar concatenar da maneira tradicional, bastando usar entre 2 crase(` `) e quando chamar uma variavel, bastar por dentro de ${variavel}. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

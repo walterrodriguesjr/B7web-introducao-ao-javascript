@@ -388,7 +388,7 @@ botao.addEventListener("click", clic); */
     const teste = document.querySelector("#teste");
     const ul = teste.querySelector('ul');
     
-    let newli = document.createElement("li");
+    let newli = document.document.("li");
     newli.innerText = "item adicionado";
 
     ul.appendChild(newli);
@@ -405,13 +405,13 @@ botao.addEventListener("click", clic); */
     const teste = document.querySelector("#teste");
     const ul = teste.querySelector('ul'); */
 
-/* const newButton = document.createElement('button');
+/* const newButton = document.document.('button');
 newButton.innerHTML = "novo botão"; */
 
-/* let newUl = document.createElement('ul');
+/* let newUl = document.document.('ul');
 
 for (let i = 0; i < 5; i++) {
-    let newLi = document.createElement('li');
+    let newLi = document.document.('li');
     newLi.innerHTML = "Item numero: " + (i + 1);
     newUl.append(newLi);
 }
@@ -479,7 +479,7 @@ input.addEventListener('keyup', handleKeyUp);
 
 function handleKeyUp(e){
     if(e.key === 'Enter'){
-      let newLi = document.createElement('li');
+      let newLi = document.document.('li');
       newLi.innerHTML = input.value;
       lista.children[0].appendChild(newLi);
       input.value = '';
@@ -641,7 +641,7 @@ let p1 = createPerson("Walter", 36);
 console.log(p1);
 console.log(`Meu nome é ${p1.name} e tenho ${p1.age} anos de idade.`); */
 
-method = 'GET';
+/* method = 'GET';
 
 class Form {
     items = [];
@@ -656,7 +656,7 @@ class Form {
     }
 
     render() {
-        let formElement = document.createElement('form');
+        let formElement = document.document.('form');
         formElement.setAttribute('method', this.method);
         formElement.setAttribute('action', this.action);
 
@@ -694,7 +694,7 @@ class Input {
     }
 
     render(formElement) {
-        let el = document.createElement('input');
+        let el = document.document.('input');
         el.type = this.type;
         el.name = this.name;
         el.placeholder = this.placeholder;
@@ -711,7 +711,7 @@ class Button extends Input {
     }
 
     render(formElement){
-        let el = document.createElement('input');
+        let el = document.document.('input');
         el.type = this.type;
         el.value = this.label;
     }
@@ -731,7 +731,194 @@ form.addItem(password);
 let button = new Button('Enviar');
 form.addItem(button);
 
-form.render();
+form.render(); */
+
+/* document.getElementById('titulo').innerHTML = "trocando o texto"; */
+
+
+/* idade = 36;
+
+if(idade > 34){
+    alert("idade 36");
+}else{
+    alert("idade menor que 36");
+} */
+
+
+
+/* function clicou()
+{
+    document.getElementById('h1').innerHTML = "alterou";
+} */
+
+
+/* let carros = ['Palio', 'Uno', 'Gol', 'Ferrari'];
+console.log(carros);
+carros.push('Corolla');
+console.log(carros); */
+
+
+
+
+/* document.getElementById('lista').innerHTML = carros.map(carro=>`<li>${carro}</li>`).join(''); */
+
+
+/* let carro = {nome: 'Fiat',
+             modelo: 'Uno',
+             peso: '800kg',
+             ligar:function() {
+                console.log("Ligando carro "+this.modelo);
+             },
+             acelerar:function() {
+                console.log("Acelerando o carro "+this.modelo);
+             }
+            };
+
+console.log("Modelo: "+carro.modelo);
+carro.ligar();
+carro.acelerar(); */
+
+
+/* let dia = 3;
+let diaNome = '';
+
+switch (dia) {
+    case 1:
+        diaNome = "Segunda-feira";
+        break;
+        case 2:
+            diaNome = "Terça-feira";
+            break;
+            case 3:
+                diaNome = "Quarta-feira";
+                break;
+                default:
+                    break;
+                }
+                document.getElementById('dia').innerHTML = "Hoje é: "+diaNome;
+ */
+
+
+/* let texto = '';
+let carros = ['fusca', 'uno', 'ferrari'];
+for (let i = 0; i < 50; i++) {
+    texto += i + '<br>';
+    
+}
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+
+document.getElementById('demo').innerHTML = texto; */
+
+/* let texto = '';
+
+for (let i = 0; i < 50; i++) {
+    texto += i + '<br>';
+}
+document.getElementById('demo').innerHTML = texto;
+*/
+
+/* CRIANDO UMA LISTA COM ARRAY DE DADOS */
+/* let carros = ['Uno', 'Fusca', 'gol'];
+carros.push('Corvete');
+let html = '<ul>';
+
+for (let i in carros) {
+    html += '<li>'+ carros[i] +'</li>';
+    
+}
+html += '</ul>';
+
+document.getElementById('demo').innerHTML = html; */
+
+
+/* let html = '';
+
+let c = 0;
+
+while (c <= 10) {
+    html += "Número: "+c+"<br>";
+    c++;
+}
+
+document.getElementById('demo').innerHTML = html; */
+
+/* let d = new Date();
+
+d.setFullYear(1985);
+
+let novoValor = d;
+console.log(novoValor); */
+
+/* let d = new Date();
+
+d.setMonth(0);
+
+let novoValor = d;
+console.log(novoValor); */
+
+/* let novoValor = Math.round(3.9);
+console.log(novoValor); */
+
+/* let novoValor = Math.floor(2.8);
+console.log(novoValor); */
+
+/* let novoValor = Math.ceil(2.1);
+console.log(novoValor); */
+
+/* let novoValor = Math.abs(-2.444);
+console.log(novoValor); */
+
+/* let novoValor = Math.min(2,4,8,9);
+console.log(novoValor); */
+
+/* let novoValor = Math.max(2,4,8,9);
+console.log(novoValor); */
+
+/* let novoValor = Math.floor(Math.random() * 100);
+console.log(novoValor); */
+
+/* let timer;
+
+function comecar() {
+    timer = setInterval(showTime, 1000);
+}
+
+function parar() {
+    clearInterval(timer)
+}
+
+function showTime() {
+    let d = new Date();
+
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let s = d.getSeconds();
+
+    let txt = h+':'+m+':'+s;
+    document.querySelector('#demo').innerHTML = txt;
+} */
+
+/* setTimeout(function() {
+    alert("teste");
+}, 2000); */
+
+let nome = 'Walter';
+let idade = 36;
+
+let dados = `Meu nome é ${nome} e tenho ${idade} anos de idade.`;
+console.log(dados);
+
+
+
+
+
+
+
+
 
 
 
