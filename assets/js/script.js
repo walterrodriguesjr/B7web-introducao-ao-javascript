@@ -906,11 +906,141 @@ function showTime() {
     alert("teste");
 }, 2000); */
 
-let nome = 'Walter';
+/* let nome = 'Walter';
 let idade = 36;
 
 let dados = `Meu nome é ${nome} e tenho ${idade} anos de idade.`;
-console.log(dados);
+console.log(dados); */
+
+/* let = pessoa = {
+    nome: 'Walter',
+    sobrenome: 'Rodrigues',
+    idade: 36,
+    social:{
+        facebook: 'walterrjr',
+        instagram: 'wtj',
+        whatsapp: {
+            num1: 999467156,
+        },
+    },
+    nomeCompleto() {
+        return `${this.nome} ${this.sobrenome}`;
+    }
+};
+
+function pegarNome(obj) {
+    return obj.nome+' '+obj.sobrenome;
+}
+
+console.log(pegarNome(pessoa)); */
+
+/* let nome = pessoa.nome;
+let sobreNome = pessoa.sobrenome;
+let idade = pessoa.idade;
+let instagram = pessoa.social.instagram; */
+
+//let {nome, sobrenome, idade, social: {facebook, instagram}, social:{whatsapp:{num1}}} = pessoa;
+/* let {facebook, instagram} = pessoa.social; */
+//console.log(`Meu nome é ${nome}, meu sobrenome é: ${sobrenome}, tenho ${idade} anos de idade, meu facebook é ${facebook}, meu instagram é ${instagram} e meu Whats é ${num1}.`);
+
+/* let info = [
+    'Walter Rodrigues', 'Walter', 'Rodrigues', '@wrj'
+];
+
+let [nomeCompleto, nome, sobreNome, instagram] = info;
+
+console.log(nomeCompleto);
+console.log(nome);
+console.log(sobreNome);
+console.log(instagram); */
+
+/* function somar(x, y) {
+    return x + y;
+} */
+
+/* let somar = function(x, y) {
+    return x + y;
+} */
+
+/* let somar = (x, y) => {
+    return x + y;
+} */
+
+/* let somar = (x, y) => x + y; */
+
+/* let letrasNoNome = (nome) => {
+    return nome.length;
+} */
+
+/* let letrasNoNome = (nome) => nome.length; */
+
+//console.log(letrasNoNome('Walter'));
+//console.log(somar(5, 10));
+
+/* let numeros = [1,2,3,4];
+let outros = [...numeros,5,6,7,8];
+console.log(outros);
+
+let info = {
+    nome:'Walter',
+    sobreNome:'Rodrigues',
+    idade: 36,
+};
+let novaInfo = {...info, cidade:'Curitiba',estado:'PR'};
+console.log(novaInfo); */
+
+/* function adicionarInfo(info) {
+    let novasInfo = {
+        ...info,
+        profissao:'Policial',
+        funcao:'Programador',
+    };
+    return novasInfo;
+}
+let info = {
+    nome:'Walter',
+    sobreNome:'Rodrigues',
+    idade: 36,
+};
+console.log(adicionarInfo(info)); */
+
+/* function adicionar(...numeros) {
+console.log(numeros);
+}
+adicionar(5,6,4,8); */
+
+/* let lista = ['ovo','café', 'arroz', 'macarrão'];
+console.log(lista.includes('café'));
+
+let nome = 'Walter';
+console.log(nome.repeat(10)); */
+
+/* let lista = ['ovo', 'feijão', 'pipoca'];
+console.log(Object.keys(lista));
+console.log(Object.values(lista));
+console.log(Object.entries(lista));
+
+let pessoa = {
+    nome:'Walter',
+    sobreNome:'Rodrigues',
+    idade:36
+};
+
+console.log(Object.keys(pessoa));
+console.log(Object.values(pessoa));
+console.log(Object.entries(pessoa)); */
+
+/* let telefone = '999467';
+console.log(telefone.padEnd(9, '*'));
+
+let cartao = '9874698536541578';
+console.log(); */
+
+
+
+
+
+
 
 
 

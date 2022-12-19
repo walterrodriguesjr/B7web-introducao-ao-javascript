@@ -484,12 +484,57 @@ módulo 8 - manipulações, arrow, ajax, etc
 -setInterval() = esta função, possibilita, realizar algo(executar outra função)de tanto e tanto tempo, no parâmetro aguarda o que será executado, e de quanto em quanto tempo 
 -clearInterval() = serve para parar uma ação usando setInterval(), criada anteriormente 
 
-13-intervalos(2/2)
+14-intervalos(2/2)
 -setTimeout() = esta função espera determinado tempo especificado para realizar algo 
 
-14-template strings 
+15-template strings 
 -é uma maneira nova de exibir dados sem precisar concatenar da maneira tradicional, bastando usar entre 2 crase(` `) e quando chamar uma variavel, bastar por dentro de ${variavel}. 
 
+16-desconstruindo objetos(1/2)
+-desconstruir um objeto, é pegar as propriedades individuais do objeto, e coloca-las em uma variável 
+    sempre acessando as propriedades por camadas 
+-convertendo propriedades do objeto em variáveis em uma única linha 
+
+17-desconstruindo objetos(2/2)
+-acessando objetos que estão dentro do objeto, sempre acessando seus respectivos níveis dentro do objeto principal 
+
+18-descontruíndo arrays 
+-descontruir arrays é muito similar ao que foi feito com os objetos 
+-no caso de array, pega-se pelo índice do array, e não pelo nome como no objeto 
+
+19-arrow functions 
+-esse tipo de função serve para deixar a função memos verbosa 
+-geralmente estará dentro de uma variável, neste caso, a função não precisa ter nome, iniciando pelo parametro, e em seguida, suas ações 
+    o nome da função será o nome de sua variável 
+-não se utiliza o this 
+
+20-operador spread 
+-serve para reaproveitar em um novo array, dados de um array anterior
+-utiliza dentro do array, com 3 pontos(...) mais o nome do array que terá seus dados reutilizados
+-usado em arrays e objetos 
+-acaba juntando no mesmo array, os dados do array anterior com o atual, sem criar uma nova camada 
+
+21-operador rest 
+-a escrita é igual a do spread(...), porém é usado no parâmetro de um função, para que quando chame a função, possa ser passado quantos dados quiser, não sendo necessário passar parametro por parametro 
+
+22-includes e repeat 
+-variavel.includes = serve para buscar um dados em determinado local(variável, array, etc...), espera por parâmetro, o dado a ser verificado, se existir no array, retorna true, senão, false 
+-variavel.repeat = serve para repetir um dado, quantas vezes for informado no parâmetro 
+
+23-Objeto: Key, Values e Entries
+-funciona tanto em objetos, quanto em arrays 
+-Object.keys(array ou objeto) = retorna a lista dos indices do array ou objeto(números)
+-Object.values(array ou objeto) = retorna a lista dos itens dentro do array ou objeto(nomes)
+-Object.entries(array ou objeto) = retorna colocando cada item do array ou objeto dentro de seu próprio array ou objeto, contendo indice e value(nome)
+
+24-String, padStart, padEnd 
+-são funções de manipulação de strings 
+-variável.padEnd() = espera 2 parametros, o primeiro informa quantos caracteres a string deve ter, e o segundo, com qual caractere será preenchido automaticamente caso todos os campos não sejam preenchidos
+
+
+módulo 9 - requisições e assíncronismo 
+
+1-
 
 
 
