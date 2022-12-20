@@ -1037,6 +1037,155 @@ let cartao = '9874698536541578';
 console.log(); */
 
 
+/* let pessoa = {
+    nome: "Walter",
+    idade: 36,
+    caracteristicas: ['branco', 'alegre'],
+    estetica: {
+        altura: 1.72,
+        peso: 74
+    }
+}
+console.log(pessoa.estetica.altura); */
+
+/* let pessoa = JSON.parse('{"nome": "Walter", "idade": 90}');
+console.log(pessoa);
+ */
+
+/* let pessoa = JSON.stringify({nome: "Walter", idade: 90});
+console.log(pessoa); */
+
+/* function alertar(){
+    console.log("Opa, tudo bem?");
+};
+let nome = "Walter";
+setTimeout(alertar, 2000);
+let sobrenome = "Rodrigues";
+console.log(`Nome completo = ${nome} ${sobrenome}`); */
+
+/* function pegarTemperatura() {
+    return new Promise(function(resolve, reject) {
+        console.log("pegando temperatura...");
+
+        setTimeout(function() {
+            resolve('40 na sombra');
+        }, 2000);
+    });
+}
+
+//USANDO A PROMISE ACIMA FEITA
+
+let temp = pegarTemperatura();
+temp.then(function(resultado) {
+    console.log(`TEMPERATURA: ${resultado}`);
+});
+temp.catch(function(error) {
+    console.log("Deu erro");
+}) */
+
+//function loadPosts() {
+//
+//    document.getElementById("posts").innerHTML = "Carregando...";
+//
+//    fetch('https://jsonplaceholder.typicode.com/posts')
+//    .then(function(resultado) {
+//        return resultado.json();
+//    })
+//    .then(function(json) {
+//        montarBlog(json);
+///*        document.getElementById("posts").innerHTML = json.length + ' ' + 'posts'; */
+//    })
+//    .catch(function() {
+//        console.log("Deu problema!");
+//    });
+//}
+//
+//function montarBlog(lista) {
+//    let html = '';
+//
+//    for(let i in lista){
+//        html += '<h2>'+ lista[i].id +'</h2>';
+//       html += '<h3>'+ lista[i].title +'</h3>'; 
+//       html += lista[i].body+'</br>';
+//       html += '<hr>';
+//    }
+//    document.getElementById('posts').innerHTML = html;
+//}
+
+//MESMO CÓDIGO COM ASYNC AWAIT
+/* async function loadPosts() {
+
+    document.getElementById("posts").innerHTML = "Carregando...";
+
+
+    let req = await fetch('https://jsonplaceholder.typicode.com/posts');
+    let json = await req.json();
+    montarBlog(json);
+
+}
+
+function montarBlog(lista) {
+    let html = '';
+
+    for(let i in lista){
+        html += '<h2>'+ lista[i].id +'</h2>';
+       html += '<h3>'+ lista[i].title +'</h3>'; 
+       html += lista[i].body+'</br>';
+       html += '<hr>';
+    }
+    document.getElementById('posts').innerHTML = html;
+} */
+
+/* async function inserirPost(){
+    document.getElementById('posts').innerHTML = 'Carregando...';
+    
+    let req = await fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify({
+            title: 'Titulo de teste',
+            body: 'Corpo de teste',
+            userId: 4
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+    
+    let json = await req.json();
+    
+    console.log(json);
+} */
+
+/* function enviar() {
+    let arquivo = document.getElementById('arquivo').files[0];
+    console.log(arquivo);
+} */
+
+/* function mostrar(){
+    let imagem = document.getElementById("imagem").files[0];
+    
+    let img = document.createElement('img');
+    img.src = URL.createObjectURL(imagem);
+    img.width = 200;
+    document.getElementById("area").appendChild(img);
+} */
+
+function mostrar() {
+    let reader = new FileReader();
+    let imagem = document.getElementById('imagem').files[0];
+
+    reader.onloadend = function() {
+        let img = document.createElement('img');
+        img.src = reader.result;
+        img.width = 200;
+
+        document.getElementById('area').appendChild(img);
+    }
+
+    reader.readAsDataURL(imagem);
+}
+
+
 
 
 

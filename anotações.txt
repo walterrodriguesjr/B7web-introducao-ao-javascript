@@ -534,7 +534,61 @@ módulo 8 - manipulações, arrow, ajax, etc
 
 módulo 9 - requisições e assíncronismo 
 
-1-
+1-o que são requisições? 
+-requisições são solicitações de dados feitos de um lugar para o seu pc, seria puxar informações externas 
+
+2-o que é JSON 
+-JSON = javascript object notation, é um objeto javascript, usava-se esse formato em requisições 
+-como JSON são objetos, para acessar dados do JSON, usa-se o acesso por camadas, podendo ter um objeto dentro do outro ou arrays 
+
+3-JSON.parse 
+-JSON.parse() = serve para pegar um JSON em string, e transformar em um JSON real, para ae sim, poder ser manipulado individualmente cada dado 
+
+4-JSON.stringify
+-JSON.stringify() = ao contrário do parse, transofrma um JSON real, em string
+
+5-Código síncrono vs assíncrono 
+-síncrono = executa linha a linha, só vai pra próxima linha, após executar a anterior(sem erro)
+-assíncrono = executa a linha seguinte, sem necessariamente a anterior ter terminada, sendo uma requisição a anterior por exemplo
+
+6-callbacks 
+-é uma função javascript que executa algo, quando determinada coisa acontecer 
+-a função setTimeout é um exemplo de callback 
+-o callback fica esperando algum retorno/resultado para seguir em frente, enquanto o restante do código segue normalmente 
+
+7-Promises
+-a promise usa a class Promise, para que, retorne algo temporario enquanto a finalização(resolve) está sendo processada para retornar ao usuário, e caso não obtenha êxito, restorna o reject
+-usa-se o método then(então), para que, quando vier o retorno da promise, seja feito algo 
+
+8-Fetch 1
+-criado uma função usando Fetch, similar a um ajax, o qual possibilita fazer requisições HTTP 
+
+9-Fetch 2
+-criado na prática a usabilidade das requisições Fetch, lista os tipos de dados do objeto de maneira ordenada na tela 
+
+10-Async e Await
+-Async = é declarado antes da function, como no exemplo, para que dentro desta function() possa ser usado o await 
+-await = é usado geralmente antes de métodos, diz que, o resto do código só pode ser executado, após os await serem finalizados(espera o resultado daqui, ae sim segue o código)
+-possibilitam fazer um código menos verboso, e não enchendo o código de then()
+-os await só são va´lidos em funções Async 
+
+11-Fetch com POST 
+-usando o POST com Fetch em exemplo prático
+
+12-Upload de arquivos com JS 
+-realizado exemplos 
+
+13-Thumbnails com JS
+-refere-se a miniaturas de imagens na tela durante a seleção para upload 
+-realizado exemplo 
+
+14-Thumbnails com FileReader
+-similar ao anterior, porem mais complexo 
+-realizado exemplo 
+
+
+
+
 
 
 
